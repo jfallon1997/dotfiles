@@ -2,7 +2,6 @@
 !.gitignore
 !.bashrc
 !.bash_aliases
-!.bash_profile
 !.tmux.conf
 !.vimperatorrc
 !.vimrc
