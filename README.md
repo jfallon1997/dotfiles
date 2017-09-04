@@ -8,9 +8,9 @@ In setting up your own dotfiles repo, you may find [this guide](https://coderwal
 
 Based on the Debian default, I will swap this for a more customized version at some point.
 
-## .bash_profile
+## .bash_aliases
 
-Empty.
+Contains any aliases/short functions that I define
 
 ## .tmux.conf
 
