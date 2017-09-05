@@ -2,3 +2,4 @@
 
 # assume that 'sl' is a typo
 alias sl='ls'
+open(){ xdg-open "$@" & }
