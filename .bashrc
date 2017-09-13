@@ -89,6 +89,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Private Options
+if [ -f ~/.bash_private ]; then
+    . ~/.bash_private
+fi
+
 # enable programmable completion features 
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -97,3 +102,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# pandoc bash completion
+eval "$(pandoc --bash-completion)"
