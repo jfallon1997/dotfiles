@@ -10,3 +10,6 @@ open(){ xdg-open "$@" & }
 alias rm='echo "rm disabled, try using trash or /bin/rm"'
 
 md2html(){ pandoc "$@" -s -o /tmp/pandoc.html && open /tmp/pandoc.html & }
+
+# routine maintenance 
+alias mntn='sudo apt update; sudo apt upgrade; echo "Starting clamscan of /home/james" ; clamscan --recursive=yes --infected /home/james'
